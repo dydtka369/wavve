@@ -1,13 +1,13 @@
 footer {
     background-color: #1b1b1b;
-    height: 303px;
+    height: 270px;
      
   }
   #footer_top {
     position: relative;
     margin: 0 auto;
     width: 100%;
-    height: 51px;
+    height: 41px;
     border-bottom: 1px solid #2f2f2f;
     border-top: 1px solid #2f2f2f;
     padding-bottom: 10px;
@@ -15,16 +15,16 @@ footer {
 
   #footer_top h2 {
     position: relative;
-    left: 350px;
-    top: 29px;
+    left: 315px;
+    top: 18px;
     font-size: 20px;
     color: #717171;
   }
 
   #footer_top img {
     position: relative;
-    left: 70%;
-    bottom: 10px;      
+    left: 77%;
+    bottom: 20px;      
     border: 1px solid #2f2f2f;
   }
 
@@ -35,8 +35,8 @@ footer {
     width: 1150px;
     height: 17px;
     overflow: hidden;
-    bottom: 45px;
-    left: 150px;
+    bottom: 53px;
+    left: 90px;
   }
 
   #footer_top ul li a {
@@ -47,7 +47,6 @@ footer {
     width: 1240px;
     height: 40px;
     margin: 0 auto;
-    padding-left: 60px;
   }
 
   .footer_menu ul{
@@ -57,6 +56,7 @@ footer {
   
   .footer_menu li{
     display: inline-block;
+    padding: 10px;
   }
 
   .footer_menu li a {
@@ -68,7 +68,7 @@ footer {
     width: 1240px;
     height: 40px;
     margin: 0 auto;
-    padding-left: 50px;
+    padding-left: 20px;
   }
 
   .footer_copy span {
@@ -83,7 +83,7 @@ footer {
 
   #footer_right {
     position: relative;
-    left: 64%;
+    left: 71%;
     bottom: 80px;
     width: 370px;
     height: 40px;
