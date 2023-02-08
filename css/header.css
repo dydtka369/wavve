@@ -42,6 +42,7 @@ h1 img {
     right: 0;
     background-color: #1b1b1b;
     box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+    z-index: 99;
 }
 
 #header_inner nav {
