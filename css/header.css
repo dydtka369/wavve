@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "NotoSansR";
+    src: url("../font/Noto_Sans/NotoSans-Regular.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1b1b;
+    font-family: "NotoSansR";
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h1 img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* header_inner 영역 시작 */
+#header_inner {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #1b1b1b;
+    box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+}
+
+#header_inner nav {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+#header_inner nav ul {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#header_inner nav li {
+    display: inline-block;
+}
+
+#header_inner nav li img {
+    float: left;
+}
+
+#header_inner nav li p {
+    float: right;
+}
+/* header_inner 영역 종료 */
+
+/* gnb_top 영역 시작 */
+#gnb_top {
+    padding-top: 20px;
+}
+
+#gnb_top_inner {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #2f2f2f;
+}
+
+#gnb_top_inner a {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+#gnb_top_left {
+    float: left;
+}
+
+#gnb_top_left li {
+    height: 100%;
+    margin-right: 10px;
+    line-height: 14px;
+}
+
+#gnb_top_left li img {
+    padding-right: 4px;
+}
+
+#gnb_top_right {
+    float: right;
+}
+
+#gnb_top_right li {
+    height: 100%;
+    margin-left: 10px;
+    line-height: 14px;
+}
+/* gnb_top 영역 종료 */
+
+/* gnb_bottom 영역 시작 */
+#gnb_bottom {
+    position: relative;
+    height: 50px;
+}
+
+#gnb_bottom a {
+    display: inline-block;
+    font-size: 20px;
+    color: #a5a5a5;
+    height: 100%;
+}
+
+#gnb_bottom a:hover {
+    color: #fff;
+}
+
+#gnb_bottom ul {
+    display: inline-block;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 5px;
+    height: 32px;
+}
+
+#gnb_bottom ul li {
+    position: relative;
+    float: left;
+    margin-right: 100px;
+    height: 100%;
+}
+
+#gnb_bottom ul li:last-child {
+    margin-right: 0;
+}
+
+#gnb_bottom ul li:nth-child(1) a {
+    color: #fff;
+}
+
+#gnb_search {
+    float: right;
+    margin-top: 13px;
+}
+
+#gnb_search img {
+    width: 22px;
+    height: 22px;
+    color: #fff;
+}
+/* gnb_bottom 영역 종료 */
+
+/* main_banner 영역 시작 */
+#main_banner {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to bottom, rgba(27, 27, 27, .0) 70%, rgba(27, 27, 27, 1) 80%), url(../images/WOO_1920774.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* header_banner 영역 종료 */
