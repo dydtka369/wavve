@@ -160,13 +160,3 @@ h1 img {
     color: #fff;
 }
 /* gnb_bottom 영역 종료 */
-
-/* main_banner 영역 시작 */
-#main_banner {
-    width: 100%;
-    height: 800px;
-    background: linear-gradient(to bottom, rgba(27, 27, 27, .0) 70%, rgba(27, 27, 27, 1) 80%), url(../images/WOO_1920774.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-/* header_banner 영역 종료 */
