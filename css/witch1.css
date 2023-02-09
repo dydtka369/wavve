@@ -6,7 +6,7 @@
 }
 #banner{
     position: relative;
-    background: linear-gradient(to left, rgba(27, 27, 27, .0)70%, rgba(27, 27, 27, 1) 90%), url(../images/마녀배너.jpg);
+    background: linear-gradient(to left, rgba(27, 27, 27, .0)70%, rgba(27, 27, 27, 1) 90%), url(../images/마녀1배너.jpg);
     background-size: cover;
     position: relative;
     width: 1240px;
@@ -22,8 +22,8 @@
 
 #banner_inner h1{
     position: absolute;
-    left: 90px;
-    top: 400px; 
+    left: 80px;
+    top: 380px; 
 }
 #banner_inner p {
     position: absolute;
@@ -35,7 +35,7 @@
 }
 #login_big input {
     position: absolute;
-    bottom: 45px;
+    bottom: 90px;
     width: 440px;
     height: 50px;
     background-color: #1351f9;
@@ -50,7 +50,7 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    bottom: 53px;
+    bottom: 95px;
     left: 460px;
 }
 .title {
@@ -61,10 +61,17 @@
     width: 793px;
     height: 48px;
     color: #a5a5a5;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    margin-top: 16px;
     font-size: 16px;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
+    color: #a5a5a5;
+    line-height: 24px;
+    margin-bottom: 30px;
 }
 #bottom_content {
     margin-top: 50px;
@@ -114,6 +121,7 @@
     display: inline-block;
 }
 .ma1 img {
+    border-radius: 10px;
     width: 185px;
     height: 278px;
     float: left;

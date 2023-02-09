@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+#content{
+    width: 100%;
+    height: 1380px;
+}
+#banner{
+    position: relative;
+    background: linear-gradient(to left, rgba(27, 27, 27, .0)70%, rgba(27, 27, 27, 1) 90%), url(../images/마녀배너.jpg);
+    background-size: cover;
+    position: relative;
+    width: 1240px;
+    height: 710px;
+    margin: 0 auto;
+}
+
+#banner_inner em img{
+    width: 180px;
+    height: 100px;
+    margin-top: 33px;
+}
+
+#banner_inner h1{
+    position: absolute;
+    left: 90px;
+    top: 400px; 
+}
+#banner_inner p {
+    position: absolute;
+    font-size: 16px;
+    color: #fff;
+    line-height: 28px;
+    left: 10px;
+    top: 570px;
+}
+#login_big input {
+    position: absolute;
+    bottom: 45px;
+    width: 440px;
+    height: 50px;
+    background-color: #1351f9;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+    cursor: pointer;
+}
+.icon img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 53px;
+    left: 460px;
+}
+.title {
+    position: absolute;
+    bottom: -20px;
+}
+.title p {
+    width: 793px;
+    height: 48px;
+    color: #a5a5a5;
+    font-size: 16px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+#bottom_content {
+    margin-top: 50px;
+
+}
+.boottom_nav {
+    width: 1240px;
+    height: 68px;
+    margin: 0 auto;
+}
+.boottom_nav ul {
+    text-align: left;
+    border-bottom: 1px solid #a5a5a5;
+    margin-bottom: 10px;
+}
+.boottom_nav ul li {
+    display: inline-block;
+}
+.boottom_nav ul li {
+    font-size: 18px;
+    line-height: 36px;
+    padding:0 8px;
+    cursor: pointer;
+
+}
+.bt1 {
+    color: #fff;
+    border-bottom:3px solid #1351f9;
+}
+.bt2, .bt3 {
+    color: #a5a5a5;
+}
+
+#bottom_list {
+    width: 1240px;
+    height: 550px;
+    margin: 0 auto;
+}
+.ma1 {
+    width: 600px;
+    height: 278px;
+}
+#bottom_list ul {
+    text-align: left;
+}
+#bottom_list ul li {
+    display: inline-block;
+}
+.ma1 img {
+    border-radius: 10px;
+    width: 185px;
+    height: 278px;
+    float: left;
+}
+.ma1 strong{
+    display: inline-block;
+    width: 395px;
+    height: 24px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.ma1 span {
+    display: inline-block;
+    width: 395px;
+    height: 18px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 18px;
+    color: #a5a5a5;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.ma1 p {
+    display: inline-block;
+    width: 395px;
+    height: 120px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    margin-top: 16px;
+    font-size: 16px;
+    color: #a5a5a5;
+    line-height: 24px;
+    padding-left: 10px;
+}
