@@ -21,6 +21,7 @@ footer {
   #footer_top h2 {
     font-size: 20px;
     color: #717171;
+    margin-top: 10px;
   }
 
   #footer_top img {
@@ -32,14 +33,12 @@ footer {
   }
 
   #footer_top ul {
-    position: relative;
     margin: 0 auto;
     display: block;
     width: 1150px;
     height: 17px;
     overflow: hidden;
-    bottom: 49px;
-    left: 90px;
+    border: 1px solid red;
   }
 
   #footer_top ul li a {
