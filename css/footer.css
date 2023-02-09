@@ -1,6 +1,6 @@
 footer {
     background-color: #1b1b1b;
-    height: 170px;
+    height: 180px;
      
   }
   #footer_top {
@@ -12,11 +12,13 @@ footer {
     border-top: 1px solid #2f2f2f;
     padding-bottom: 10px;
   }
+  .footrt_inner {
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+  }
 
   #footer_top h2 {
-    position: relative;
-    left: 340px;
-    top: 11px;
     font-size: 20px;
     color: #717171;
   }

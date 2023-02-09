@@ -157,7 +157,72 @@ body {
 #slid_wapper ul li img {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 /* slid_baner2 종료 */
+
+/* long 시작 */
+#long {
+    width: 100%;
+    height: 96px;
+    background-color: rgb(137, 29, 213);
+}
+
+.long_banner {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* long 종료 */
+
+#comming {
+    width: auto;
+    height: 365px;
+    margin-top: 80px;
+}
+.com {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+ .com li{
+    margin-right: 9.5px;
+} 
+.com li:nth-child(3n) {
+    margin-right: 0;
+}
+.com_content img{
+    border-radius: 10px;
+}
+.com_content span {
+    position: relative;
+    width: 350px;
+    margin-top: 20px;
+    display: block;
+    font-size: 14px;
+    color: #a5a5a5;
+}
+
+.com ul li {
+    float: left;
+}
+.com ul li img{
+    width: 407px;
+    height: 229px;
+
+}
+.com .heart img{
+    width: 35px;
+    height: 35px;
+}
+.com .heart {
+    position: relative;
+    left: 355px;
+    bottom: 34px;
+    text-align: right;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+
+}
