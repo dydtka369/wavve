@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+#content{
+    width: 100%;
+    height: 800px;
+}
+
+#login_box{
+    width: 570px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #252525;
+    margin-top: 70px;
+}
+#login_box  h1{
+    font-size: 32px;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.login_banner h2 {
+    font-size: 18px;
+    color: #a5a5a5;
+    font-weight: 18px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+form .longin{
+    display: block;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 480px;
+    height: 53px;
+    background-color: #2f2f2f;
+    border: 0;
+}
+
+.box {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #a5a5a5;
+    border: 1px solid #a5a5a5;
+}
+
+.login_banner ul{
+    text-align: left;
+    margin : 20px 10px 0 37px;
+}
+
+.login_banner li {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #a5a5a5;
+    display: inline-block;
+}
+#login_big{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#login_big input{
+    width: 480px;
+    height: 60px;
+    background-color: #1351f9;
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+    cursor: pointer;
+}
+.search{
+    width: 480px;
+    height: 20px;
+    margin-left:37px;
+}
+.search ul{
+    text-align: center;
+}
+.search ul li{
+    display: inline-block;
+    
+}
+.search ul li a{
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.login_sns {
+    width: 560px;
+    height: 192px;
+}
+
+.login_sns ul{
+    text-align: center;
+}
+
+.login_sns ul li{
+    margin-left: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-top: 50px;
+    
+}
+.login_sns .ka{
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+.login_sns .face{
+    background-color: rgb(77, 77, 236);
+    border-radius: 50px;
+}
+.login_sns .naver{
+    background-color: green;
+    border-radius: 50px;
+}
+.login_sns .appple{
+    background-color: white;
+    border-radius: 50px;
+}
+.login_tit{
+    width: 480px;
+    height: 44px;
+    font-size: 14px;
+    color: #717171;
+    text-align: center;
+    margin: 60px 0 0 40px;
+    line-height: 1.5em;
+}
+
