@@ -142,16 +142,29 @@ form .longin{
     font-size: 14px;
     line-height: 20px;
     color: #a5a5a5;
-    margin-left: 49px;
-    
+    margin-left: 65px;
 }
 
 .tit2 {
+    position: relative;
+    white-space: normal;
     width: 480px;
     height: 40px;
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
     color: #a5a5a5;
-    margin-left: 49px;
+    margin-left: 65px;
+}
+.login_banner .pasicon{
+    position: relative;
+    left: 45px;
+    top: 21px;
+    width: 30px;
+}
+#login-form input[type="email"] {
+    padding-left: 15px;
+}
+#login-form input[type="password"] {
+    padding-left: 15px;
 }
