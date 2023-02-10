@@ -110,16 +110,16 @@ form .longin{
     
 }
 .login_sns .ka{
-    background-color: yellow;
+    background-color: #fff100;
     border-radius: 50px;
 }
 
 .login_sns .face{
-    background-color: rgb(77, 77, 236);
+    background-color: #3b5998;
     border-radius: 50px;
 }
 .login_sns .naver{
-    background-color: green;
+    background-color: #23b909;
     border-radius: 50px;
 }
 .login_sns .appple{
@@ -136,3 +136,33 @@ form .longin{
     line-height: 1.5em;
 }
 
+#login-form input[type="checkbox"] {
+    appearance: none;
+    background-color: #2f2f2f;   
+}
+
+#login-form input[type="checkbox"]::after {
+    position: relative;
+}
+
+#login-form li {
+    margin-right: 100px;
+}
+
+#login-form label {
+    position: relative;
+}
+
+#login-form label span {
+    position: absolute;
+    width: 100px;
+    bottom: 7px;
+    left: 0;
+}
+
+#login-form input[type="text"] {
+    padding-left: 15px;
+}
+#login-form input[type="password"] {
+    padding-left: 15px;
+}
