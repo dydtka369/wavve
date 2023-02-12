@@ -262,4 +262,5 @@ body {
     height: 60px;
     z-index: 900px;
     opacity: 0;
+    cursor: pointer;
 }
