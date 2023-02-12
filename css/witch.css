@@ -287,6 +287,7 @@
     left: 190px;
     width: 800px;
     margin: 0 auto;
+    padding-left: 15px;
 }
 .movie_banner h2{
     font-size: 16px;
@@ -301,4 +302,36 @@
     color: #a5a5a5;
     font-size: 16px;
     line-height: 24px;
+}
+table{
+    margin-top: 20px;
+}
+table th{
+    width: 100px;
+    height: 24px;
+    font-weight: 400px;
+    vertical-align: top;
+    padding-top: 30px;
+}
+table td{
+    width: 955px;
+    height: 54px;
+    font-weight: 400px;
+    vertical-align: top;
+    padding-top: 30px; 
+    padding-left: 20px;
+}
+table {
+    color: #fff;
+    font-size: 16px;
+}
+
+.movie_img img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.age img{
+    width: 50px;
+    height: 50px;
 }
