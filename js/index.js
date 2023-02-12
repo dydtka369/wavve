@@ -6,8 +6,13 @@ $(function(){
         }else {
             $('#up').css('opacity','0')
         }
-
+    
     })
-});
+    
+    });
+
+
+
+
 
 
