@@ -254,3 +254,12 @@ body {
 #slid_wapper:hover p{
     display: block;
 } 
+#up {
+    position: fixed;
+    width: 60px;
+    right: 70px;
+    bottom: 70px;
+    height: 60px;
+    z-index: 900px;
+    opacity: 0;
+}
