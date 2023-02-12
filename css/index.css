@@ -257,8 +257,8 @@ body {
 #up {
     position: fixed;
     width: 60px;
-    right: 70px;
-    bottom: 70px;
+    right: 50px;
+    bottom: 40px;
     height: 60px;
     z-index: 900px;
     opacity: 0;
