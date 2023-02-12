@@ -10,6 +10,7 @@ $(function(){
         $('.bt1').css('border-bottom','3px solid #1351f9');
         $('#bottom_list1').css('display','block');
         $('#bottom_list2').css('display','none');
+        $('#bottom_list3').css('display','none'); 
       }
     });
       $('.bt2').click(function(){
