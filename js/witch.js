@@ -39,7 +39,5 @@ $(function(){
         $('#bottom_list2').css('display','none');
       }
     });
-    $('#loading').animate({
-      opacity : '0'
-  },3000)
+    $('#loading').fadeOut(2000);
   })
