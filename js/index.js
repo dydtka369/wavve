@@ -13,12 +13,17 @@ $(function(){
             $(this).attr('src','./images/좋아하면.jpg')
         })
     })
+    let sw=false;
     let index=0;
+    let auto;
+    let mindex;
+    moveSilder(index);
+    autoSlider();
     // 좌측 버튼 클릭 이벤트
     $('.left_control').click(function(){
          index--;
          if(index < 0) {
-             index = 4;
+             index = 5;
          }
          moveSilder(index);
         // index--;
@@ -27,13 +32,20 @@ $(function(){
     // 우측버튼 클릭 이벤트
     $('.right_control').click(function(){
          index++;
-         if(index >= 4){
+         if(index >= 5){
              index = 0;
          }
          moveSilder(index);
         // index++;
         // moveSilder(index);
     });
+      // 애니메이션 캔버스 영역
+      $('.animation_canvas').hover(function(){
+        clearInterval(auto);
+    }, function(){
+        autoSlider();
+    })
+
     //이미지 슬라이더 구현 함수
     function moveSilder(index) {
         // if(index >= 0 && index < 4){
@@ -60,12 +72,23 @@ $(function(){
             $('.slider_text').hide()
             $('.slider_text').eq(index).fadeIn('slow'); 
     }
-
-
-   
+     //자동이미지 슬라이더 구현 함수
+            function autoSlider() {
+            auto = setInterval(function(){
+                if(index < 5 && sw == false){
+                    $('.right_control').trigger('click');
+                }else {
+                    sw=true;
+                }
+                 if(index > 0 && sw==true){
+                    $('.left_control').trigger('click');
+                }else {
+                    sw= false;
+                }
+            },2000);
+        }
 
     
-
     });
 
 
