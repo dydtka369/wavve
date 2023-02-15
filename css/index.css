@@ -25,7 +25,7 @@ body {
 }
 .slider_panel{
     margin: 0 auto;
-    width: 86080px;
+    width: 9920px;
     position: relative;
 }
 .slider_image {
@@ -163,10 +163,12 @@ body {
 
 #slid_wapper {
     position: relative;
-    width: 1240px;
+    width: auto;
     height: 360px;
+    float: right;
     overflow: hidden;
 }
+
 
 #slid_wapper ul li {
     display: inline-block;
