@@ -24,20 +24,20 @@ body {
     
 }
 .slider_panel{
+    z-index: -999px;
     margin: 0 auto;
-    width: 9920px;
+    width: 5400px;
     position: relative;
 }
 .slider_image {
     justify-content: center;
     align-items: center;
-    width: 1240px;
-    height: 508px;
+    width: 900px;
+    height: 500px;
     float: left;
     margin-right: 20px;
     overflow: hidden;
     border-radius: 25px;
-    transform: translate(15%, -1%);
 
 }
 .left_right_control_panel {
@@ -92,7 +92,8 @@ body {
 
 /* slid_baner2 시작 */
 .tit1 {
-    position: relative;
+    width: 500px;
+    margin-left: 3px;
 }
 
 .tit1 span {
@@ -100,35 +101,45 @@ body {
     font-size: 24px;
     line-height: 36px;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .tit1 a {
     position: absolute;
-    right: 0;
-    top: 5px;
+    top: 10px;
+    right: 6px;
     display: inline-block;
     margin: 0 auto;
     font-size: 16px;
     line-height: 24px;
     color: #a5a5a5;
+    cursor: pointer;
+}
+.tit2 {
+    display: block;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
-#slid_baner div {
-    float: left;
+.tit2 a {
+    position: absolute;
+    right: 310px;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #a5a5a5;
+    cursor: pointer;
 }
+
+
 
 .slid1 {
     margin: 0 290px;
     float: left;
     width: 100vw;
-}
-
-#slid_baner img {
-    width: 1240px;
-    height: 508px;
-    margin: 0 20px;
-    border-radius: 12px;
 }
 
 .slid_baner2 {
@@ -137,7 +148,7 @@ body {
 
 .vanner {
     margin: 0 auto;
-    width: 1240px;
+    width: auto;
     height: 498px;
     margin-top: 100px;
 }
@@ -161,16 +172,36 @@ body {
     margin-top: 10px;
 }
 
-#slid_wapper {
+.slid_wapper {
     position: relative;
-    width: auto;
-    height: 360px;
-    float: right;
+    width: 1240px;
+    height: 450px;
+    margin: 0 auto;
     overflow: hidden;
 }
 
+.slid {
+    position: relative;
+    width: 2640px;
+    float: left;
+    
+}
+.slid2 {
+    position: relative;
+    width: 2640px;
+    float: left;
+    
+}
+.slid3 {
+    position: relative;
+    width: 2640px;
+    float: left;
+    
+}
 
-#slid_wapper ul li {
+
+
+.slid_wapper ul li {
     display: inline-block;
     width: 240px;
     height: 360px;
@@ -179,16 +210,16 @@ body {
     border-radius: 14px;
 }
 
-#slid_wapper ul li img:hover {
+.slid_wapper ul li img:hover {
     transform: scale(1.1);
     
 }
 
-#slid_wapper ul li:nth-child(5n) {
+.slid_wapper ul li:nth-child(5n) {
     margin-right: 0;
 }
 
-#slid_wapper ul li img {
+.slid_wapper ul li img {
     width: 100%;
     height: 100%;
     border-radius: 12px;
@@ -261,23 +292,68 @@ body {
     margin-bottom: 10px;
 
 }
+/* le re 버튼 */
 
-#slid_wapper .le {
+.slid_wapper .le {
     position: absolute;
     top: 35%;
     left: 0;
     display: none;
 }
 
-#slid_wapper .re {
+.slid_wapper .re {
     position: absolute;
     top: 35%;
     right: 0;
     display: none;
 }
-#slid_wapper:hover p{
+.slid_wapper .le1 {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    display: none;
+}
+
+.slid_wapper .re1 {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    display: none;
+}
+
+.slid_wapper .le2 {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    display: none;
+}
+
+.slid_wapper .re2 {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    display: none;
+}
+
+.slid_wapper .le3 {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    display: none;
+}
+
+.slid_wapper .re3 {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    display: none;
+}
+
+
+.slid_wapper:hover p{
     display: block;
 } 
+/* le re 버튼  종료*/
 #up {
     position: fixed;
     width: 60px;
