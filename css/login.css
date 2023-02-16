@@ -35,6 +35,7 @@ form .longin{
     height: 53px;
     background-color: #2f2f2f;
     border: 0;
+    color: #fff;
 }
 
 .box {
@@ -138,11 +139,24 @@ form .longin{
 
 #login-form input[type="checkbox"] {
     appearance: none;
-    background-color: #2f2f2f;   
+    background-color: #2f2f2f;  
+    outline: 0; 
 }
+
+#login-form input[type="checkbox"]:checked {
+    background-color: #fff;
+}
+
+#login-form input[type="checkbox"]:checked::after {
+    display: block;
+}
+
 
 #login-form input[type="checkbox"]::after {
     position: relative;
+    content:'✔';
+    display: none;
+    top: -3px;
 }
 
 #login-form li {

@@ -7,7 +7,7 @@
     position: fixed;
     display: block;
     opacity: 0.5;
-    background: #fff;
+    background: #000;
     z-index: 100;
     text-align: center;
 }

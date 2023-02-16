@@ -20,6 +20,7 @@ body {
     position: relative;
     width: auto;
     height: 500px;
+    left: 30px;
     overflow: hidden;
     
 }
@@ -150,20 +151,20 @@ body {
     margin: 0 auto;
     width: auto;
     height: 498px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .vanner1 {
     margin: 0 auto;
     width: 1240px;
     height: 498px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .vanner3{
     margin: 0 auto;
     width: 1240px;
     height: 498px;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 .vanner4{
     margin: 0 auto;
@@ -296,55 +297,55 @@ body {
 
 .slid_wapper .le {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 0;
     display: none;
 }
 
 .slid_wapper .re {
     position: absolute;
-    top: 35%;
+    top: 40%;
     right: 0;
     display: none;
 }
 .slid_wapper .le1 {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 0;
     display: none;
 }
 
 .slid_wapper .re1 {
     position: absolute;
-    top: 35%;
+    top: 40%;
     right: 0;
     display: none;
 }
 
 .slid_wapper .le2 {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 0;
     display: none;
 }
 
 .slid_wapper .re2 {
     position: absolute;
-    top: 35%;
+    top: 40%;
     right: 0;
     display: none;
 }
 
 .slid_wapper .le3 {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 0;
     display: none;
 }
 
 .slid_wapper .re3 {
     position: absolute;
-    top: 35%;
+    top: 40%;
     right: 0;
     display: none;
 }

@@ -7,42 +7,33 @@ $(function(){
             $('#up').css('opacity','0')
         }
     
-        $('#img2').hover(function(){
-            $(this).attr('src','./images/좋댓알.gif.gif')
-        },function(){
-            $(this).attr('src','./images/좋아하면.jpg')
-        })
     })
     let sw=false;
-    let index=1;
+    let index=0;
     let auto;
     moveSilder(index);
     autoSlider();
-    $('.slider_panel').append($('.slider_image').first().clone());
-    $('.slider_panel').prepend($('.slider_image').eq(-2).clone());
     $('.control_button').click(function(){
         index = $(this).index();
-        moveSilder(index+1);
+        moveSilder(index);
     });
     // 좌측 버튼 클릭 이벤트
     $('.left_control').click(function(){
-        if(index > 1) {
+        if(index > 0) {
             index--;
             moveSilder(index);
         }else {
-            $('.slider_panel').css('left', -4500); 
-            index = 4;
+            index = 3;
             moveSilder(index);
         }
     })
     // 우측버튼 클릭 이벤트
     $('.right_control').stop(true).click(function(){
-        if(index < 4) {
+        if(index < 3) {
             index++;
             moveSilder(index);
         }else {
-            $('.slider_panel').css('left', 0);
-            index = 1;
+            index = 0;
             moveSilder(index);
         }
     });
@@ -92,7 +83,7 @@ $(function(){
         function miniSlide(ide) {
             $('.slid').animate({
                 left : -(ide*1240)
-            },'fast')
+            },'slow')
         }
        
 
@@ -125,7 +116,7 @@ $(function(){
         function miniSlide1(ide1) {
             $('.slid2').animate({
                 left : -(ide1*1240)
-            },'fast')
+            },'slow')
         }
        
 
@@ -158,7 +149,7 @@ $(function(){
           function miniSlide2(ide2) {
               $('.slid2').animate({
                   left : -(ide2*1240)
-              },'fast')
+              },'slow')
           }
         
           
@@ -191,7 +182,7 @@ $(function(){
              function miniSlide3(ide3) {
                  $('.slid3').animate({
                      left : -(ide3*1240)
-                 },'fast')
+                 },'slow')
              }
             
            })

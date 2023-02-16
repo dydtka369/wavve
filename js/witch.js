@@ -39,5 +39,7 @@ $(function(){
         $('#bottom_list2').css('display','none');
       }
     });
-    $('#loading').fadeOut(2000);
+
+
+    $('#loading').fadeOut(2500);
   })
