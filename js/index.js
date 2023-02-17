@@ -57,6 +57,11 @@ $(function(){
             },2000);
         }
 
+       
+    
+
+
+
         // 첫 번째 미니 슬라이드
         let ide=0;
         miniSlide(ide);
@@ -109,7 +114,7 @@ $(function(){
             }
             miniSlide1(ide1);
         });
-
+   
 
 
        //미니 슬라이드 구현 함수
